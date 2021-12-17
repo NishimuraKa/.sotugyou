@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ShootingStar</title>
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/all.js" integrity="sha384-g5uSoOSBd7KkhAMlnQILrecXvzst9TdC09/VM+pjDTCM+1il8RHz5fKANTFFb+gQ" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+<div class="container">
+<div class="loading js-loading">
+    <img src="img/loading.gif" alt="">
+</div>
+
+ <!-- header -->
+  <header class="header">
+
+      <h1 class="site-title"><a href="index.html">Ideal</a></h1><!-- ①サイトタイトル後でロゴに変更 -->
+
+      <div class="nav-wrapper"><!-- ②ナビゲーションメニュー -->
+        <nav class="header-nav">
+     <div class="charadaimei">
+       <p></p>
+
+
+          <ul class="nav-list">
+
+          <li><a href="index.html">Top</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="story.html">Story</a></li>
+          <li><a href="system.html">System</a></li>
+
+      </ul>
+
+    </nav>
+      </div>
+	<div class="burger-btn"><!-- ③ハンバーガーボタン -->
+ 	 <span class="bar bar_top"></span>
+  	<span class="bar bar_mid"></span>
+  	<span class="bar bar_bottom"></span>
+
+</div>
+ 
+    </header>
+    <!-- //header -->
+    <div class="charazentai">
+
+       <h2>Character</h2>
+
+       <hr class="cp_hr3" />
+
+       <div class="chara_list">
+
+
+	        <a class="js-modal-open" href="" data-target="modal01"><img src="img/rui.png" onmouseover="this.src='img/rui-over.png'" onmouseout="this.src='img/rui.png'"></a>
+	        <a class="js-modal-open" href="" data-target="modal02"><img src="img/noboru.png" onmouseover="this.src='img/noboru-over.png'" onmouseout="this.src='img/noboru.png'"></a>
+	        <a class="js-modal-open" href="" data-target="modal03"><img src="img/syuya.png" onmouseover="this.src='img/syuya-over.png'" onmouseout="this.src='img/syuya.png'"></a>
+	        <a class="js-modal-open" href="" data-target="modal04"><img src="img/taishi.png" onmouseover="this.src='img/taishi-over.png'" onmouseout="this.src='img/taishi.png'"></a>
+      </div>
+
+	    <div id="modal01" class="modal js-modal">
+	        <div class="modal__bg js-modal-close"></div>
+	        <div class="modal__content">
+	       		<img src="img/ruisyokai.jpg">
+	            <a class="js-modal-close" href="">×</a>
+	        </div><!--modal__inner-->
+	    </div><!--modal-->
+
+	    <div id="modal02" class="modal js-modal">
+	        <div class="modal__bg js-modal-close"></div>
+	        <div class="modal__content">
+	       		<img src="img/noborusyokai.png">
+	            <a class="js-modal-close" href="">×</a>
+	        </div><!--modal__inner-->
+	    </div><!--modal-->
+
+	    <div id="modal03" class="modal js-modal">
+	        <div class="modal__bg js-modal-close"></div>
+	        <div class="modal__content">
+	       		<img src="img/syuyasyokai.png">
+	            <a class="js-modal-close" href="">×</a>
+	        </div><!--modal__inner-->
+	    </div><!--modal-->
+
+	    <div id="modal04" class="modal js-modal">
+	        <div class="modal__bg js-modal-close"></div>
+	        <div class="modal__content">
+	       		<img src="img/taishisyokai.jpg">
+	            <a class="js-modal-close" href="">×</a>
+	        </div><!--modal__inner-->
+	    </div><!--modal-->
+
+      <h1 class="unit-title"><img src="img/rogo2.png" alt="ShootingStar"></h1>
+
+      <h3>何度だって、やり直せる。</h3><br>
+
+      <p class="setumei">菊田昇率いる、正統派ユニット。</p><br>
+
+      <p>昔アイドルとして活動していた幼馴染4人で再結成された。</p>
+      <p>長年の活動で培った目を惹くダンスが特徴。</p>
+      <p>普段とパフォーマンス時の雰囲気が真逆のグループ。</p>
+
+       <hr class="cp_hr4" />
+
+      <div class="otherunit">
+         
+            <h1>Other Unit</h1>
+   	    <h2 class="other"><a href="dream.html"><img src="img/rogo1.png" onmouseover="this.src='img/rogo1-over.png'" onmouseout="this.src='img/rogo1.png'"></a></h2>
+
+      </div>
+
+       <div class="newsitiran">
+
+          <button class="newsbutton" onclick="location.href='character.html'">≪　ユニット一覧へ戻る</button>
+
+      </div> 
+    </div>
+
+<!--フッター-->
+  <footer>
+    <div class="footABC">
+      <nav class="footB">
+        <ul>
+          <li><a href="index.html">TOP</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="character.html">Character</a></li>
+          <li><a href="story.html">Story</a></li>
+          <li><a href="system.html">System</a></li>
+         
+        </ul>
+      </nav>
+
+      <nav class="footC">
+        <ul>
+          <li><a href="https://www.facebook.com/sharer/sharer.php?u=index.html"><i class="fab fa-facebook-f"></i></a></li>
+          <li><a href=https://twitter.com/share?text=Intrigue公式サイト&url=index.html><i class="fab fa-twitter"></i></a></li>
+          <li><a href="https://social-plugins.line.me/lineit/share?url=index.html"><i class="fab fa-line"></i></i></a></li>
+  
+      </ul>
+      </nav>
+      <nav class="footA">
+          <p>2021 西村和恵 卒業制作</p>
+     </nav>
+
+  </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+</div>
+</body>
+
+
+</html>
